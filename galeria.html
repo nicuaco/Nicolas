@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Author" content="Nicolas Machuca">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #87CEEB; /* Color celeste */
+        }
+    </style>
+    <style>
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            font-family: 'broadway', cursive;
+        }
+    </style>
+
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="imagenes/logo.jpg">
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/ofe1.png" class="d-block w-100 carousel-img" alt="no encontrado">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ofe2.png" class="d-block w-100 carousel-img" alt="no encontrado">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ofe3.png" class="d-block w-100 carousel-img" alt="no encontrado">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Galería de Productos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/domperidona.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Domperidona</h5>
+                        <p class="card-text">Precio: $14.000</p>
+                        <p class="card-text">Cantidad: 123</p>
+                        <p class="card-text">Descripción: Antagonista dopaminérgico que actúa estimulando la motilidad gástrica. Posee efectos antieméticos por combinación de acción periférica y antagonismo de los receptores de la dopamina en la zona de emisión de quimiorreceptores, situada fuera de la barrera hematoencefálica en el área postrema.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/gelocatil.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Gelocatil</h5>
+                        <p class="card-text">Precio: $10.000</p>
+                        <p class="card-text">Cantidad: 53</p>
+                        <p class="card-text">Descripción: es eficaz para reducir el dolor y la fiebre. Está indicado para el alivio sintomático del dolor ocasional leve o moderado, como dolor de cabeza, dental, muscular o de espalda y en estados febriles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/paracetamol.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Paracetamol</h5>
+                        <p class="card-text">Precio: $20.000</p>
+                        <p class="card-text">Cantidad: 51</p>
+                        <p class="card-text">Descripción: Analgésico y antipirético, inhibidor de la síntesis de prostaglandinas periférica y central por acción sobre la ciclooxigenasa. Bloquea la generación del impulso doloroso a nivel periférico. Actúa sobre el centro hipotalámico regulador de la temperatura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/moperid.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Moperid</h5>
+                        <p class="card-text">Precio: $15.000</p>
+                        <p class="card-text">Cantidad: 30</p>
+                        <p class="card-text">Descripción: Aumenta la peristalsis esofágica y aumenta la presión del esfínter esofágico inferior, aumenta la motilidad y la peristalsis gástrica y mejora la coordinación gastroduodenal, por lo tanto, facilita el vaciado gástrico y disminuye el tiempo de tránsito del intestino delgado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/tylenol.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tylenol</h5>
+                        <p class="card-text">Precio: $59.000</p>
+                        <p class="card-text">Cantidad: 40</p>
+                        <p class="card-text">Descripción: Tylenol reduce la fiebre y alivia el dolor. No reduce la inflamación, a diferencia de los medicamentos antiinflamatorios no esteroideos, como la aspirina y el ibuprofeno, pero tiene menos probabilidades de causar malestar estomacal y otros efectos secundarios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/xumadol.jpg" class="card-img-top" alt="Producto 1" style="height: 150px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Xumadol</h5>
+                        <p class="card-text">Precio: $43.200</p>
+                        <p class="card-text">Cantidad: 32</p>
+                        <p class="card-text">Descripción: Xumadol pertenece al grupo de medicamentos llamados analgésicos y antipiréticos. Este medicamento está indicado para el tratamiento sintomático del dolor de intensidad leve o moderada y estados febriles en adultos y adolescentes mayores de 15 años.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer mt-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container d-flex justify-content-center">
+                <span class="text-center text-white">Asignatura: FRONT END</span>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
